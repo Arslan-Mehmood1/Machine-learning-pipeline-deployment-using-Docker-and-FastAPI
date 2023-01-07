@@ -178,4 +178,7 @@ Now that the docker image is created. To run a docker container out of it:
 docker run -p 80:80 ml_pipeline:RFC
 ```
 The `-p 80:80` flag performs port mapping operations. The container and as well as local machine, has own set of ports. As our container is exposed on port 80, so it needs to be mapped to a port on local machine which is also 80.
+<p align="center">
+  <img src="/other/images/1.png">
+</p>
 
