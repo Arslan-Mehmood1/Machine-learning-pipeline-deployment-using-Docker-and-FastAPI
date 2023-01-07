@@ -1,0 +1,20 @@
+{
+	"LanguageCode": "estonian",
+	"AppliedAmount": 319.5582,
+	"Amount": 319.5409,
+	"Interest" : 25 , 
+	"LoanDuration" : 20, 
+	"EMI":7988.5225,
+    "HomeOwnershipType": "owner",
+	"IncomeTotal" : 1300.0,
+	"LiabilitiesTotal" : 0,
+	"MonthlyPaymentDay":25,
+	"Rating" : "f",
+	"Restructured" : "yes",
+	"PrincipalPaymentsMade" : 203.1909,
+	"InterestAndPenaltyPaymentsMade" : 59.7626,
+	"PrincipalBalance" : 116.35,
+	"InterestAndPenaltyBalance" : 414.07,
+	"PreviousRepaymentsBeforeLoan" :0,
+	"Bids" : 319.5580
+}
