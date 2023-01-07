@@ -214,3 +214,17 @@ FastAPI has a built-in client to interact with the deployed server.
   <img src="/other/images/3.png">
   <img src="/other/images/2.png">
 </p>
+
+### Using `curl` to send request
+`curl` command can be used to send the inference request to deployed server.
+```bash
+curl -X POST http://localhost:80/predict \
+    -d @./loan-examples/1.json \
+    -H "Content-Type: application/json"
+```
+Three flags are used with `curl`:
+`-X`: to specify the type of request like `POST`
+`-d`: data to be sent with request
+`-H`: header to specify the type of data sent with request
+
+The directory `loan-examples` has 2 json files containing the loan samples for prediction, for testing the deployed dockerized server.
