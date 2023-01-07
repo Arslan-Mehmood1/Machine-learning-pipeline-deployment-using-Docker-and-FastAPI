@@ -182,3 +182,30 @@ The `-p 80:80` flag performs port mapping operations. The container and as well 
   <img src="/other/images/1.png">
 </p>
 
+## Make Inference Requests to Dockerized Server
+Now that our server is listening on port 80, a `POST` request can be made for predicting the class of loan.
+
+The requests should contain the data in `JSON` format.
+```JSON
+{
+"LanguageCode": "estonian" ,
+"AppliedAmount": 191.7349 ,
+"Amount": 140.6057 ,
+"Interest" : 25 , 
+"LoanDuration" : 1, 
+"EMI":3655.7482,
+"HomeOwnershipType": "owner",
+"IncomeTotal" : 1300.0,
+"LiabilitiesTotal" : 0,
+"MonthlyPaymentDay":15,
+"Rating" : "f",
+"Restructured" : "no",
+"PrincipalPaymentsMade" : 140.6057,
+"InterestAndPenaltyPaymentsMade" : 2.0227,
+"PrincipalBalance" : 0,
+"InterestAndPenaltyBalance" : 0,
+"PreviousRepaymentsBeforeLoan" :258.6256,
+"Bids" : 140.6057 
+}
+```
+
