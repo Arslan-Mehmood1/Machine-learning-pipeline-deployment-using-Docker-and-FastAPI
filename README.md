@@ -208,4 +208,9 @@ The requests should contain the data in `JSON` format.
 "Bids" : 140.6057 
 }
 ```
-
+### FastAPI built-in Client
+FastAPI has a built-in client to interact with the deployed server.
+<p align="center">
+  <img src="/other/images/3.png">
+  <img src="/other/images/2.png">
+</p>
