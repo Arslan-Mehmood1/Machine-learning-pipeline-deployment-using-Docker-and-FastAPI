@@ -1,6 +1,6 @@
 # Machine-learning-pipeline-deployment-using-Docker-and-FastAPI
 
-This project is about deploying the trained machine learning pipeline using FastAPI and Docker. The trained machine learning pipeline which is to be deployed is taken from my repository [Credit-Risk-Analysis-for-european-peer-to-peer-lending-firm-Bandora](https://github.com/Arslan-Mehmood1/Credit-Risk-Analysis-for-european-peer-to-peer-lending-firm-Bandora).
+This project is about deploying the trained machine learning pipeline using FastAPI and Docker. The ml pipeline which will be deployed is taken from my repository [Credit-Risk-Analysis-for-european-peer-to-peer-lending-firm-Bandora](https://github.com/Arslan-Mehmood1/Credit-Risk-Analysis-for-european-peer-to-peer-lending-firm-Bandora).
 
 The ml pipeline includes a RandomForestClassifier for classifying the loan borrowers as **defaulted / not-defaulted**.
 
